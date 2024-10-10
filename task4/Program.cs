@@ -16,8 +16,8 @@ while (helper>=10)
     helper=helper/10;
     kolvocifr=kolvocifr+1;
 }
-    int[] cifri= new int[kolvocifr]
-    i=kolvocifr-1;
+    int[] cifri= new int[kolvocifr];
+   int i=kolvocifr-1;
 while (i>=0)
 {
     
@@ -25,55 +25,11 @@ while (i>=0)
     helper2=helper2/10;
     i=i-1;
 }
-i2=0;
+int i2=0;
 while(i2<kolvocifr-1)
 {
-  Console.WriteLine(cifri[i2]+", ");
+  Console.Write(cifri[i2]+", ");
   i2=i2+1;   
 }
-Console.WriteLine(cifri[i2]);
+Console.Write(cifri[i2]);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-   
-   
-   
-   
-   
